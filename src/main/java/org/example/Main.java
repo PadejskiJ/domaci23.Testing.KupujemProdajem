@@ -21,7 +21,7 @@ Za 5+ nakon klika na kategoriju bicikli, treba izlistati sve kategorije koje pis
  */
 public class Main {
     public static void main(String[] args) {
-gi
+
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\jpbou\\IdeaProjects/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.kupujemprodajem.com/");
